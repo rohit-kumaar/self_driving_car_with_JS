@@ -8,6 +8,7 @@ export function qs(selector, parent = document) {
   return parent.querySelector(selector);
 }
 
+// Create script element and insert in head
 export function loadScript(URL) {
   const head = document.getElementsByTagName("head")[0];
   const script = document.createElement("script");
